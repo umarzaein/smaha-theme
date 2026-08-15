@@ -1,0 +1,278 @@
+/*==================================================
+SMA HASYIM ASY'ARI SSO THEME
+Version : 1.0
+Author  : Umar & ChatGPT
+==================================================*/
+
+
+/*==========================
+RESET
+==========================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Plus Jakarta Sans',sans-serif;
+
+    color:#0f172a;
+
+    background:#ffffff;
+
+    overflow:hidden;
+
+}
+
+
+/*==========================
+VARIABLE
+==========================*/
+
+:root{
+
+    --primary:#14532d;
+
+    --primary-light:#166534;
+
+    --primary-hover:#15803d;
+
+    --white:#ffffff;
+
+    --text:#0f172a;
+
+    --text-soft:#64748b;
+
+    --border:#e2e8f0;
+
+    --shadow:0 20px 60px rgba(0,0,0,.15);
+
+}
+
+
+/*==========================
+BACKGROUND
+==========================*/
+
+body{
+
+    background-image:
+
+    linear-gradient(
+
+        rgba(20,83,45,.38),
+
+        rgba(20,83,45,.48)
+
+    ),
+
+    url("../img/bg.jpeg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    height:100vh;
+
+}
+
+
+/*==========================
+LAYOUT
+==========================*/
+
+.overlay{
+
+    width:100%;
+
+    height:100vh;
+
+    display:flex;
+
+}
+
+
+.left-panel{
+
+    width:60%;
+
+    padding:60px;
+
+    display:flex;
+
+    align-items:stretch;
+
+}
+
+
+.right-panel{
+
+    width:40%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:50px;
+
+}
+
+
+/*==========================
+HERO
+==========================*/
+
+.hero{
+
+    width:100%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:space-between;
+
+}
+
+
+.hero-top{
+
+    margin-top:20px;
+
+}
+
+
+.hero-top h3{
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    line-height:1.8;
+
+}
+
+
+.hero-top h1{
+
+    color:white;
+
+    margin-top:25px;
+
+    font-size:54px;
+
+    line-height:1.2;
+
+    font-weight:800;
+
+}
+
+
+.hero-top p{
+
+    color:white;
+
+    margin-top:25px;
+
+    font-size:20px;
+
+    max-width:520px;
+
+    line-height:1.8;
+
+}
+
+/* ==========================
+   Login Button
+========================== */
+
+.login-btn{
+    width:100%;
+    height:54px;
+    border:none;
+    border-radius:14px;
+    background:#0b7a43;
+    color:#fff;
+    font-size:1rem;
+    font-weight:700;
+    cursor:pointer;
+    transition:.25s;
+    position:relative;
+    overflow:hidden;
+}
+
+.login-btn:hover{
+    background:#096b3a;
+}
+
+.login-btn:disabled{
+    opacity:.85;
+    cursor:not-allowed;
+}
+
+.button-text{
+    transition:.2s;
+}
+
+.spinner{
+    display:none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:22px;
+    height:22px;
+    margin-left:-11px;
+    margin-top:-11px;
+
+    border:3px solid rgba(255,255,255,.3);
+    border-top-color:#fff;
+    border-radius:50%;
+
+    animation:spin .8s linear infinite;
+}
+
+.login-btn.loading .button-text{
+    visibility:hidden;
+}
+
+.login-btn.loading .spinner{
+    display:block;
+}
+
+@keyframes spin{
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+.toggle-password{
+    border:none;
+    background:none;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#7a7a7a;
+    transition:.2s;
+}
+
+.toggle-password:hover{
+    color:#0b7a43;
+}
+
+.toggle-password.active{
+    color:#0b7a43;
+}
