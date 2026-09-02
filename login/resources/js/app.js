@@ -1,12 +1,12 @@
 function togglePassword(){
 
-    const password=document.getElementById("password");
+    const password = document.getElementById("password");
 
-    const eyeIcon=document.getElementById("eyeIcon");
+    const eyeIcon = document.getElementById("eyeIcon");
 
-    if(password.type==="password"){
+    if(password.type === "password"){
 
-        password.type="text";
+        password.type = "text";
 
         eyeIcon.setAttribute("href","#icon-eye-off");
 
@@ -14,7 +14,7 @@ function togglePassword(){
 
     else{
 
-        password.type="password";
+        password.type = "password";
 
         eyeIcon.setAttribute("href","#icon-eye");
 
@@ -22,18 +22,32 @@ function togglePassword(){
 
 }
 
-const form=document.querySelector("form");
+document.addEventListener("DOMContentLoaded", function(){
 
-form.addEventListener("submit",function(e){
+    const form = document.querySelector("form");
 
-    e.preventDefault();
+    if (!form) {
+        return;
+    }
 
-    const btn=document.getElementById("loginButton");
+    form.addEventListener("submit", function(){
 
-    btn.classList.add("loading");
+        const btn = document.getElementById("loginButton");
 
-    btn.disabled=true;
+        if (!btn) {
+            return;
+        }
 
-    btn.querySelector(".button-text").textContent="Sedang Masuk...";
+        btn.classList.add("loading");
+
+        btn.disabled = true;
+
+        const buttonText = btn.querySelector(".button-text");
+
+        if (buttonText) {
+            buttonText.textContent = "Sedang Masuk...";
+        }
+
+    });
 
 });
