@@ -598,117 +598,56 @@
 
 @media (max-width: 767px) {
 
+    /* =========================
+       MOBILE BACKGROUND
+    ========================= */
+
     .overlay{
 
         flex-direction:column;
 
         min-height:100vh;
 
+        background:rgba(20,83,45,.18);
+
     }
 
 
-    /* LEFT */
+    /* =========================
+       HIDE DESKTOP HERO
+    ========================= */
 
     .hero{
 
-        width:100%;
-
-        min-height:auto;
-
-        padding:28px 24px 24px;
-
-    }
-
-    .hero-logo{
-
-        width:62px;
-
-        margin-bottom:14px;
-
-    }
-
-    .hero h1{
-
-        font-size:30px;
-
-        line-height:1.12;
-
-        letter-spacing:-.7px;
-
-        max-width:100%;
-
-        margin-top:0;
-
-    }
-
-    .hero p{
-
-        margin-top:14px;
-
-        font-size:16px;
-
-        line-height:1.5;
-
-        max-width:100%;
-
-    }
-
-    .hero-bottom{
-
-        font-size:14px;
-
-    }
-
-    .hero-info{
-
-        margin-top:22px;
-
-        gap:11px;
-
-    }
-
-    .hero-item{
-
-        gap:10px;
-
-    }
-
-    .hero-item img,
-
-    .hero-icon{
-
-        width:19px;
-
-        height:19px;
-
-    }
-
-    .hero-item span{
-
-        font-size:10px;
-
-        margin-bottom:2px;
-
-    }
-
-    .hero-item strong{
-
-        font-size:13px;
+        display:none;
 
     }
 
 
-    /* RIGHT */
+    /* =========================
+       LOGIN AREA
+    ========================= */
 
     .login-wrapper{
 
         width:100%;
 
-        padding:22px 18px 35px;
+        min-height:100vh;
 
-        align-items:flex-start;
+        padding:24px 16px;
+
+        display:flex;
+
+        align-items:center;
+
+        justify-content:center;
 
     }
+
+
+    /* =========================
+       LOGIN CARD
+    ========================= */
 
     .login-card{
 
@@ -716,27 +655,42 @@
 
         max-width:420px;
 
-        padding:28px 22px;
+        padding:30px 22px 24px;
 
         border-radius:18px;
 
     }
 
+
+    /* =========================
+       LOGO
+    ========================= */
+
     .login-logo{
 
-        width:75px;
+        width:70px;
 
-        margin-bottom:14px;
+        display:block;
+
+        margin:0 auto 16px auto;
 
     }
+
+
+    /* =========================
+       TITLE
+    ========================= */
 
     .login-card h2{
 
-        font-size:23px;
+        font-size:24px;
 
-        line-height:1.15;
+        line-height:1.2;
+
+        text-align:center;
 
     }
+
 
     .login-card p{
 
@@ -746,9 +700,14 @@
 
         margin-top:8px;
 
-        margin-bottom:24px;
+        margin-bottom:26px;
 
     }
+
+
+    /* =========================
+       FORM
+    ========================= */
 
     form{
 
@@ -758,19 +717,27 @@
 
     }
 
+
     input{
 
-        height:48px;
+        height:50px;
 
         border-radius:12px;
 
-        font-size:14px;
-
         padding:0 16px;
+
+        font-size:15px;
 
     }
 
+
+    /* =========================
+       INPUT GROUP
+    ========================= */
+
     .input-group input{
+
+        width:100%;
 
         padding-left:48px;
 
@@ -778,15 +745,17 @@
 
     }
 
+
     .input-group label{
 
         left:48px;
 
-        top:16px;
+        top:17px;
 
         font-size:14px;
 
     }
+
 
     .input-group input:focus + label,
 
@@ -800,11 +769,13 @@
 
     }
 
+
     .input-icon{
 
         left:15px;
 
     }
+
 
     .input-icon .icon{
 
@@ -813,6 +784,11 @@
         height:18px;
 
     }
+
+
+    /* =========================
+       PASSWORD TOGGLE
+    ========================= */
 
     .toggle-password{
 
@@ -824,6 +800,7 @@
 
     }
 
+
     .toggle-password .icon{
 
         width:18px;
@@ -831,6 +808,11 @@
         height:18px;
 
     }
+
+
+    /* =========================
+       LOGIN OPTIONS
+    ========================= */
 
     .login-options{
 
@@ -842,11 +824,17 @@
 
     }
 
+
     .remember{
 
         gap:6px;
 
     }
+
+
+    /* =========================
+       LOGIN BUTTON
+    ========================= */
 
     .login-btn{
 
@@ -860,11 +848,17 @@
 
     }
 
+
+    /* =========================
+       DIVIDER
+    ========================= */
+
     .divider{
 
-        margin-top:24px;
+        margin-top:26px;
 
     }
+
 
     .divider span{
 
@@ -873,6 +867,11 @@
         font-size:11px;
 
     }
+
+
+    /* =========================
+       FOOTER
+    ========================= */
 
     .login-footer{
 
@@ -883,6 +882,7 @@
         font-size:12px;
 
     }
+
 
     .version{
 
@@ -902,83 +902,71 @@
 
 @media (max-width: 480px) {
 
-    .hero{
-
-        padding:24px 20px 20px;
-
-    }
-
-    .hero-logo{
-
-        width:55px;
-
-    }
-
-    .hero h1{
-
-        font-size:26px;
-
-    }
-
-    .hero p{
-
-        font-size:14px;
-
-    }
-
-    .hero-info{
-
-        margin-top:18px;
-
-        gap:10px;
-
-    }
-
-    .hero-item strong{
-
-        font-size:12px;
-
-    }
-
     .login-wrapper{
 
-        padding:18px 14px 30px;
+        padding:18px 12px;
 
     }
+
 
     .login-card{
 
-        padding:24px 18px;
+        padding:26px 18px 22px;
 
         border-radius:16px;
 
     }
 
+
     .login-logo{
 
-        width:65px;
+        width:62px;
+
+        margin-bottom:14px;
 
     }
+
 
     .login-card h2{
 
-        font-size:21px;
+        font-size:22px;
 
     }
+
 
     .login-card p{
 
         font-size:14px;
 
-        margin-bottom:21px;
+        margin-top:7px;
+
+        margin-bottom:22px;
 
     }
+
+
+    form{
+
+        gap:13px;
+
+    }
+
+
+    input{
+
+        height:48px;
+
+        font-size:14px;
+
+    }
+
 
     .login-options{
 
         font-size:12px;
 
     }
+
 
     .login-btn{
 
@@ -988,11 +976,30 @@
 
     }
 
+
+    .divider{
+
+        margin-top:22px;
+
+    }
+
+
     .login-footer{
 
         gap:14px;
 
+        margin-top:16px;
+
         font-size:11px;
+
+    }
+
+
+    .version{
+
+        margin-top:10px;
+
+        font-size:10px;
 
     }
 
