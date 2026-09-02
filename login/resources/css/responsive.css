@@ -1,0 +1,1124 @@
+/* =========================================================
+   RESPONSIVE
+   SMA HASYIM ASY'ARI SSO THEME
+========================================================= */
+
+
+/* =========================================================
+   DESKTOP - TINGGI LAYAR PENDEK
+   Contoh: 1366 x 768
+========================================================= */
+
+@media (max-height: 800px) and (min-width: 1200px) {
+
+    /* =========================
+       LEFT PANEL
+    ========================= */
+
+    .hero{
+
+        padding:40px;
+
+    }
+
+    .hero-logo{
+
+        width:70px;
+
+        margin-bottom:15px;
+
+    }
+
+    .hero h1{
+
+        font-size:44px;
+
+        line-height:1.08;
+
+        letter-spacing:-1.5px;
+
+        max-width:600px;
+
+        margin-top:5px;
+
+    }
+
+    .hero p{
+
+        margin-top:18px;
+
+        font-size:18px;
+
+        line-height:1.55;
+
+        max-width:540px;
+
+    }
+
+    .hero-bottom{
+
+        font-size:15px;
+
+    }
+
+    .hero-info{
+
+        margin-top:24px;
+
+        gap:12px;
+
+    }
+
+    .hero-item{
+
+        gap:12px;
+
+    }
+
+    .hero-item img{
+
+        width:20px;
+
+        height:20px;
+
+    }
+
+    .hero-icon{
+
+        width:20px;
+
+        height:20px;
+
+    }
+
+    .hero-item span{
+
+        font-size:11px;
+
+        margin-bottom:2px;
+
+    }
+
+    .hero-item strong{
+
+        font-size:14px;
+
+    }
+
+
+    /* =========================
+       RIGHT PANEL
+    ========================= */
+
+    .login-wrapper{
+
+        padding:15px 25px;
+
+    }
+
+    .login-card{
+
+        width:390px;
+
+        padding:28px;
+
+        border-radius:18px;
+
+    }
+
+    .login-logo{
+
+        width:78px;
+
+        margin-bottom:14px;
+
+    }
+
+    .login-card h2{
+
+        font-size:24px;
+
+        line-height:1.15;
+
+    }
+
+    .login-card p{
+
+        margin-top:8px;
+
+        margin-bottom:24px;
+
+        font-size:15px;
+
+        line-height:1.4;
+
+    }
+
+    form{
+
+        gap:14px;
+
+        margin-top:0;
+
+    }
+
+    input{
+
+        height:48px;
+
+        border-radius:12px;
+
+        padding:0 18px;
+
+        font-size:14px;
+
+    }
+
+    .input-group label{
+
+        left:50px;
+
+        top:16px;
+
+        font-size:14px;
+
+    }
+
+    .input-group input{
+
+        padding-left:50px;
+
+        padding-right:50px;
+
+    }
+
+    .input-group input:focus + label,
+
+    .input-group input:not(:placeholder-shown) + label{
+
+        top:-9px;
+
+        left:44px;
+
+        font-size:12px;
+
+    }
+
+    .input-icon{
+
+        left:16px;
+
+    }
+
+    .input-icon .icon{
+
+        width:18px;
+
+        height:18px;
+
+    }
+
+    .toggle-password{
+
+        right:10px;
+
+        width:36px;
+
+        height:36px;
+
+    }
+
+    .toggle-password .icon{
+
+        width:18px;
+
+        height:18px;
+
+    }
+
+    .login-options{
+
+        margin-top:2px;
+
+        margin-bottom:4px;
+
+        font-size:13px;
+
+    }
+
+    .remember{
+
+        gap:6px;
+
+    }
+
+    .login-btn{
+
+        margin-top:5px;
+
+        height:50px;
+
+        border-radius:12px;
+
+        font-size:16px;
+
+    }
+
+    .divider{
+
+        margin-top:23px;
+
+    }
+
+    .divider span{
+
+        padding:0 12px;
+
+        font-size:12px;
+
+    }
+
+    .login-footer{
+
+        gap:20px;
+
+        margin-top:17px;
+
+        font-size:12px;
+
+    }
+
+    .version{
+
+        margin-top:12px;
+
+        font-size:11px;
+
+    }
+
+}
+
+
+/* =========================================================
+   LAPTOP / DESKTOP MENENGAH
+   992 - 1199px
+========================================================= */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .hero{
+
+        width:55%;
+
+        padding:40px;
+
+    }
+
+    .login-wrapper{
+
+        width:45%;
+
+        padding:20px;
+
+    }
+
+
+    /* LEFT */
+
+    .hero-logo{
+
+        width:70px;
+
+        margin-bottom:15px;
+
+    }
+
+    .hero h1{
+
+        font-size:40px;
+
+        line-height:1.08;
+
+        letter-spacing:-1px;
+
+        max-width:520px;
+
+    }
+
+    .hero p{
+
+        font-size:17px;
+
+        line-height:1.55;
+
+        margin-top:16px;
+
+        max-width:480px;
+
+    }
+
+    .hero-info{
+
+        margin-top:25px;
+
+        gap:14px;
+
+    }
+
+    .hero-item{
+
+        gap:12px;
+
+    }
+
+    .hero-item img,
+
+    .hero-icon{
+
+        width:20px;
+
+        height:20px;
+
+    }
+
+    .hero-item span{
+
+        font-size:11px;
+
+    }
+
+    .hero-item strong{
+
+        font-size:13px;
+
+    }
+
+
+    /* RIGHT */
+
+    .login-card{
+
+        width:370px;
+
+        padding:28px;
+
+    }
+
+    .login-logo{
+
+        width:78px;
+
+        margin-bottom:15px;
+
+    }
+
+    .login-card h2{
+
+        font-size:23px;
+
+    }
+
+    .login-card p{
+
+        font-size:15px;
+
+        margin-top:8px;
+
+        margin-bottom:24px;
+
+    }
+
+    form{
+
+        gap:14px;
+
+    }
+
+    input{
+
+        height:48px;
+
+        font-size:14px;
+
+    }
+
+    .login-btn{
+
+        height:50px;
+
+        font-size:16px;
+
+    }
+
+    .divider{
+
+        margin-top:24px;
+
+    }
+
+    .login-footer{
+
+        margin-top:18px;
+
+        font-size:12px;
+
+    }
+
+}
+
+
+/* =========================================================
+   TABLET LANDSCAPE / PORTRAIT
+   768 - 991px
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .overlay{
+
+        flex-direction:column;
+
+        min-height:100vh;
+
+    }
+
+
+    /* LEFT */
+
+    .hero{
+
+        width:100%;
+
+        min-height:auto;
+
+        padding:38px 40px 30px;
+
+    }
+
+    .hero-logo{
+
+        width:70px;
+
+        margin-bottom:15px;
+
+    }
+
+    .hero h1{
+
+        font-size:38px;
+
+        line-height:1.1;
+
+        letter-spacing:-1px;
+
+        max-width:650px;
+
+        margin-top:0;
+
+    }
+
+    .hero p{
+
+        font-size:17px;
+
+        line-height:1.5;
+
+        margin-top:16px;
+
+        max-width:600px;
+
+    }
+
+    .hero-info{
+
+        margin-top:24px;
+
+        gap:12px;
+
+    }
+
+    .hero-item{
+
+        gap:12px;
+
+    }
+
+    .hero-item img,
+
+    .hero-icon{
+
+        width:20px;
+
+        height:20px;
+
+    }
+
+    .hero-item span{
+
+        font-size:11px;
+
+    }
+
+    .hero-item strong{
+
+        font-size:13px;
+
+    }
+
+
+    /* RIGHT */
+
+    .login-wrapper{
+
+        width:100%;
+
+        padding:30px 20px 45px;
+
+        align-items:flex-start;
+
+    }
+
+    .login-card{
+
+        width:420px;
+
+        max-width:100%;
+
+        padding:32px;
+
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   < 768px
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .overlay{
+
+        flex-direction:column;
+
+        min-height:100vh;
+
+    }
+
+
+    /* LEFT */
+
+    .hero{
+
+        width:100%;
+
+        min-height:auto;
+
+        padding:28px 24px 24px;
+
+    }
+
+    .hero-logo{
+
+        width:62px;
+
+        margin-bottom:14px;
+
+    }
+
+    .hero h1{
+
+        font-size:30px;
+
+        line-height:1.12;
+
+        letter-spacing:-.7px;
+
+        max-width:100%;
+
+        margin-top:0;
+
+    }
+
+    .hero p{
+
+        margin-top:14px;
+
+        font-size:16px;
+
+        line-height:1.5;
+
+        max-width:100%;
+
+    }
+
+    .hero-bottom{
+
+        font-size:14px;
+
+    }
+
+    .hero-info{
+
+        margin-top:22px;
+
+        gap:11px;
+
+    }
+
+    .hero-item{
+
+        gap:10px;
+
+    }
+
+    .hero-item img,
+
+    .hero-icon{
+
+        width:19px;
+
+        height:19px;
+
+    }
+
+    .hero-item span{
+
+        font-size:10px;
+
+        margin-bottom:2px;
+
+    }
+
+    .hero-item strong{
+
+        font-size:13px;
+
+    }
+
+
+    /* RIGHT */
+
+    .login-wrapper{
+
+        width:100%;
+
+        padding:22px 18px 35px;
+
+        align-items:flex-start;
+
+    }
+
+    .login-card{
+
+        width:100%;
+
+        max-width:420px;
+
+        padding:28px 22px;
+
+        border-radius:18px;
+
+    }
+
+    .login-logo{
+
+        width:75px;
+
+        margin-bottom:14px;
+
+    }
+
+    .login-card h2{
+
+        font-size:23px;
+
+        line-height:1.15;
+
+    }
+
+    .login-card p{
+
+        font-size:15px;
+
+        line-height:1.4;
+
+        margin-top:8px;
+
+        margin-bottom:24px;
+
+    }
+
+    form{
+
+        gap:14px;
+
+        margin-top:0;
+
+    }
+
+    input{
+
+        height:48px;
+
+        border-radius:12px;
+
+        font-size:14px;
+
+        padding:0 16px;
+
+    }
+
+    .input-group input{
+
+        padding-left:48px;
+
+        padding-right:48px;
+
+    }
+
+    .input-group label{
+
+        left:48px;
+
+        top:16px;
+
+        font-size:14px;
+
+    }
+
+    .input-group input:focus + label,
+
+    .input-group input:not(:placeholder-shown) + label{
+
+        top:-9px;
+
+        left:42px;
+
+        font-size:12px;
+
+    }
+
+    .input-icon{
+
+        left:15px;
+
+    }
+
+    .input-icon .icon{
+
+        width:18px;
+
+        height:18px;
+
+    }
+
+    .toggle-password{
+
+        right:8px;
+
+        width:36px;
+
+        height:36px;
+
+    }
+
+    .toggle-password .icon{
+
+        width:18px;
+
+        height:18px;
+
+    }
+
+    .login-options{
+
+        margin-top:2px;
+
+        margin-bottom:4px;
+
+        font-size:13px;
+
+    }
+
+    .remember{
+
+        gap:6px;
+
+    }
+
+    .login-btn{
+
+        margin-top:6px;
+
+        height:50px;
+
+        border-radius:12px;
+
+        font-size:16px;
+
+    }
+
+    .divider{
+
+        margin-top:24px;
+
+    }
+
+    .divider span{
+
+        padding:0 10px;
+
+        font-size:11px;
+
+    }
+
+    .login-footer{
+
+        gap:18px;
+
+        margin-top:18px;
+
+        font-size:12px;
+
+    }
+
+    .version{
+
+        margin-top:12px;
+
+        font-size:11px;
+
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE KECIL
+   < 480px
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .hero{
+
+        padding:24px 20px 20px;
+
+    }
+
+    .hero-logo{
+
+        width:55px;
+
+    }
+
+    .hero h1{
+
+        font-size:26px;
+
+    }
+
+    .hero p{
+
+        font-size:14px;
+
+    }
+
+    .hero-info{
+
+        margin-top:18px;
+
+        gap:10px;
+
+    }
+
+    .hero-item strong{
+
+        font-size:12px;
+
+    }
+
+    .login-wrapper{
+
+        padding:18px 14px 30px;
+
+    }
+
+    .login-card{
+
+        padding:24px 18px;
+
+        border-radius:16px;
+
+    }
+
+    .login-logo{
+
+        width:65px;
+
+    }
+
+    .login-card h2{
+
+        font-size:21px;
+
+    }
+
+    .login-card p{
+
+        font-size:14px;
+
+        margin-bottom:21px;
+
+    }
+
+    .login-options{
+
+        font-size:12px;
+
+    }
+
+    .login-btn{
+
+        height:48px;
+
+        font-size:15px;
+
+    }
+
+    .login-footer{
+
+        gap:14px;
+
+        font-size:11px;
+
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE DENGAN TINGGI SANGAT PENDEK
+========================================================= */
+
+@media (max-height: 650px) and (max-width: 767px) {
+
+    .hero{
+
+        padding-top:20px;
+
+        padding-bottom:18px;
+
+    }
+
+    .hero-logo{
+
+        width:50px;
+
+        margin-bottom:10px;
+
+    }
+
+    .hero h1{
+
+        font-size:24px;
+
+    }
+
+    .hero p{
+
+        margin-top:10px;
+
+        font-size:13px;
+
+    }
+
+    .hero-info{
+
+        margin-top:15px;
+
+        gap:8px;
+
+    }
+
+    .hero-item span{
+
+        font-size:9px;
+
+    }
+
+    .hero-item strong{
+
+        font-size:11px;
+
+    }
+
+    .login-wrapper{
+
+        padding-top:16px;
+
+        padding-bottom:25px;
+
+    }
+
+    .login-card{
+
+        padding-top:20px;
+
+        padding-bottom:20px;
+
+    }
+
+    .login-logo{
+
+        width:55px;
+
+        margin-bottom:10px;
+
+    }
+
+    .login-card p{
+
+        margin-bottom:18px;
+
+    }
+
+    form{
+
+        gap:11px;
+
+    }
+
+    input{
+
+        height:44px;
+
+    }
+
+    .login-btn{
+
+        height:46px;
+
+    }
+
+    .divider{
+
+        margin-top:18px;
+
+    }
+
+    .login-footer{
+
+        margin-top:14px;
+
+    }
+
+    .version{
+
+        margin-top:9px;
+
+    }
+
+}
