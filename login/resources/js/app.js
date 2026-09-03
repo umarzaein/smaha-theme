@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     form.addEventListener("submit", function(){
 
-        const btn = document.getElementById("loginButton");
+        const btn = document.getElementById("kc-login");
 
         if (!btn) {
             return;
