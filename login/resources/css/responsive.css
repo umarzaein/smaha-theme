@@ -1134,7 +1134,9 @@
 @media (max-width: 767px) {
 
     .login-card {
-        min-height: auto !important;
+        min-height: 0 !important;
+        height: auto !important;
+        justify-content: flex-start !important;
     }
 
     .login-card .login-logo {
