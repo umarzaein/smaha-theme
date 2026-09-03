@@ -216,6 +216,20 @@ input:focus{
 
 }
 
+.login-alert {
+    margin-bottom: 18px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.login-alert.error {
+    color: #b91c1c;
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+}
+
 .login-btn{
 
     margin-top:8px;
@@ -396,7 +410,7 @@ input:focus{
 
     height:20px;
 
-    color:#999;
+    color:#666;
 
     transition:.25s;
 
