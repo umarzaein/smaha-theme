@@ -216,18 +216,13 @@ input:focus{
 
 }
 
-.login-alert {
-    margin-bottom: 18px;
-    padding: 12px 14px;
-    border-radius: 10px;
-    font-size: 14px;
-    line-height: 1.4;
-}
-
-.login-alert.error {
-    color: #b91c1c;
-    background: #fef2f2;
-    border: 1px solid #fecaca;
+.kc-feedback-text {
+    display:block;
+    margin-top:8px;
+    padding-left:4px;
+    color:#b91c1c;
+    font-size:13px;
+    line-height:1.4;
 }
 
 .login-btn{
