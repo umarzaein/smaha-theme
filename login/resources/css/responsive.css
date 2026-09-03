@@ -1129,3 +1129,16 @@
     }
 
 }
+
+/* FINAL MOBILE LOGIN FIX */
+@media (max-width: 767px) {
+
+    .login-card {
+        min-height: auto !important;
+    }
+
+    .login-card .login-logo {
+        margin: 0 auto 16px auto !important;
+    }
+
+}
